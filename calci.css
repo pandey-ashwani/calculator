@@ -1,0 +1,43 @@
+body{
+    background-image: url("cb3jaMQ.jpg");
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
+
+h3{
+    text-align: center;
+    text-transform: uppercase;
+    color: brown;
+    font-size: 40px;
+}
+
+#calculator{
+    border: 1px solid rgb(209, 207, 207);
+    border-radius: 4px;
+    width: 200px;
+    margin: 10% 40%;
+   
+
+}
+
+#display{
+    margin: 10px;
+    width: 85%;
+    font-size: 30px;
+    border: 1px solid rgb(108, 103, 103);
+    border-radius: 5px;
+}
+
+.button-container{
+  display: flex;
+  justify-content: center;
+   flex-wrap: wrap;
+}
+
+.button{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    border: 1px solid rgb(108, 103, 103);
+    border-radius: 5px;
+}
